@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific artifacts & outputs
+outputs/
+runs/
+data/raw/
+*.pt
+*.pth
+*.ply
+
+# Logs & scratch
+*.log
+scratch/

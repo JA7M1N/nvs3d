@@ -1,0 +1,30 @@
+# 3DGS Blender training configuration
+exp_name: "gs_blender"
+seed: 42
+device: "cpu"
+output_dir: "runs"
+kind: "gs"
+
+# Data
+data_dir: "data/nerf_synthetic/lego"
+white_bkgd: true
+
+# 3DGS Model & Rasterizer
+sh_degree_max: 3
+backend: "tiled"
+tile_k: 256
+
+# Densification
+densify_from: 500
+densify_until: 15000
+densify_interval: 100
+densify_grad_thr: 0.0002
+percent_dense: 0.01
+opacity_reset_interval: 3000
+lambda_ssim: 0.2
+
+# Optimization
+iters: 30000
+log_every: 100
+eval_every: 1000
+save_every: 5000

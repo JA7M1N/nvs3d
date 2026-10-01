@@ -1,0 +1,7 @@
+# Base configuration for reproducibility, logging, and execution
+exp_name: "base"
+seed: 42
+device: "cpu"
+output_dir: "runs"
+log_every: 10
+save_every: 1000

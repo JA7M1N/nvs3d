@@ -1,0 +1,29 @@
+# Hash-grid NeRF object capture configuration
+exp_name: "nerf_hash_object"
+seed: 42
+device: "cpu"
+output_dir: "runs"
+kind: "nerf"
+
+# Data
+data_dir: "data/object_capture"
+white_bkgd: false
+near: 0.1
+far: 4.0
+
+# Model
+encoding: "hashgrid"
+n_levels: 16
+n_features_per_level: 2
+log2_hashmap_size: 19
+base_resolution: 16
+max_resolution: 2048
+
+# Optimization
+iters: 30000
+batch_size: 8192
+lr_init: 1.0e-2
+lr_final: 1.0e-3
+log_every: 100
+eval_every: 1000
+save_every: 5000

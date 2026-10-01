@@ -1,0 +1,27 @@
+# NeRF Synthetic Blender training configuration
+exp_name: "nerf_blender"
+seed: 42
+device: "cpu"
+output_dir: "runs"
+kind: "nerf"
+
+# Data
+data_dir: "data/nerf_synthetic/lego"
+white_bkgd: true
+near: 2.0
+far: 6.0
+
+# Model & Sampling
+n_coarse: 64
+n_fine: 128
+net_depth: 8
+net_width: 256
+
+# Optimization
+iters: 50000
+batch_size: 4096
+lr_init: 5.0e-4
+lr_final: 5.0e-5
+log_every: 100
+eval_every: 2000
+save_every: 5000

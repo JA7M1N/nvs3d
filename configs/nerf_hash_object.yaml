@@ -6,7 +6,7 @@ output_dir: "runs"
 kind: "nerf"
 
 # Data
-data_dir: "data/object_capture"
+data_dir: "datasets/object_capture"
 white_bkgd: false
 near: 0.1
 far: 4.0

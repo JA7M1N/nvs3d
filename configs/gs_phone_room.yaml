@@ -6,7 +6,7 @@ output_dir: "runs"
 kind: "gs"
 
 # Data
-data_dir: "data/phone_room"
+data_dir: "datasets/phone_room"
 white_bkgd: false
 
 # 3DGS Model & Rasterizer

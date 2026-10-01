@@ -19,6 +19,9 @@ dependencies = [
 dev = [
     "pytest>=8.0.0",
 ]
+data = [
+    "gdown",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -40,6 +40,7 @@ env/
 # Project specific artifacts & outputs
 outputs/
 runs/
+datasets/
 data/raw/
 *.pt
 *.pth

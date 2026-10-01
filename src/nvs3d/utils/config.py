@@ -16,6 +16,8 @@ class BaseConfig:
     seed: int = 42
     device: str = "cpu"
     output_dir: str = "runs"
+    data_dir: str = ""
+    output_root: str = ""
     iters: int = 100
     log_every: int = 10
     save_every: int = 1000

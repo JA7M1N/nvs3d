@@ -64,3 +64,4 @@ CUDA is needed for real training. If no GPU is present, do code and CPU tests on
 - Refactor unrelated code, rename public APIs, or reformat untouched files.
 - Claim something works without showing the command and output that proves it.
 - Guess when the blueprint is ambiguous: ask.
+- Never commit or push unless explicitly asked.

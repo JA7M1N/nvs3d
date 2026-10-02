@@ -13,11 +13,15 @@ dependencies = [
     "torch>=2.0.0",
     "numpy>=1.24.0",
     "pyyaml>=6.0",
+    "pillow>=9.0.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0.0",
+]
+viz = [
+    "matplotlib>=3.5.0",
 ]
 data = [
     "gdown",

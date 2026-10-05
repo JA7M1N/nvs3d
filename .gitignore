@@ -45,6 +45,11 @@ data/raw/
 *.pt
 *.pth
 *.ply
+*.zip
+
+# Credentials & secrets
+.env
+.env.*
 
 # Logs & scratch
 *.log
